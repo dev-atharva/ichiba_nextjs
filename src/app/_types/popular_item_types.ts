@@ -16,4 +16,5 @@ export interface Product {
   mediumImageUrl: string;
   minPrice: number;
   Product: string;
+  productId: string;
 }
