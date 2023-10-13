@@ -28,7 +28,9 @@ export default async function InfluencerPage({ params }: { params: IParams }) {
                   <div className=" w-36 rounded-full">
                     <Image
                       alt="Influener Avatar"
-                      src={influencer_data?.image_url}
+                      src={
+                        influencer_data ? influencer_data.image_url || "" : ""
+                      }
                       height={144}
                       width={144}
                     />
