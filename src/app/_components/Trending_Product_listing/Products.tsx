@@ -25,6 +25,7 @@ const Products = async () => {
             review_average={product.reviewAverage}
             key={product.itemCode}
             item_url={product.itemUrl}
+            product_id=""
           />
         ))}
         {/* <Card
