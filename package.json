@@ -1,0 +1,34 @@
+{
+  "name": "ichiba-app-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^1.5.1",
+    "next": "latest",
+    "next-auth": "^4.23.2",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "^7.47.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.11.0",
+    "zustand": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "daisyui": "^3.8.1",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  }
+}
